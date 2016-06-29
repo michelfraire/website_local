@@ -1,0 +1,14 @@
+/* ================================================
+//
+// Startuply v2.0 by Vivaco
+// Additional CSS for builder
+//
+================================================ */
+
+.animated {
+    opacity: 1;
+}
+
+.preloader-mask {
+    display: none;
+}
