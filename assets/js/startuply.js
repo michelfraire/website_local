@@ -351,6 +351,7 @@ Startuply = {
                 data: data,
 
                 success: function(msg) {
+                    console.log(msg)
                     if ( msg.indexOf('Success') != -1 ) {
                         if ( typeof toastr != 'undefined' ) toastr.success('¡Éxito, recibirás un correo en unos minutos!');
                         else if ( $responseBlock.length ) $responseBlock.html('<span class="success-message">¡Éxito, recibirás un correo en unos minutos!</span>');
